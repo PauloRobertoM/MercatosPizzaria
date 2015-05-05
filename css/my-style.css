@@ -1,0 +1,229 @@
+body{
+	background-color: #f2d13e; /*Cor para background - Amarelo*/
+}
+
+/*--------- Logo -----------*/
+.my-logo{
+	position: relative;
+	float: left;
+	margin: 30px 0 -30px 0;
+}
+
+/*--------- Pedidos -----------*/
+.my-pedido{
+	margin: 30px 0 -30px 0;
+	background-color: red;
+	padding: 10px 30px;
+	border-radius: 13px;
+	float: right;
+}
+
+.my-pedido p{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+
+.my-numero-pedido{
+	padding-top: 10px;
+}
+
+/*--------- Menu -----------*/
+.my-menu{
+	margin: 60px 0 -60px 0;
+	padding: 20px 30px;
+	background-color: #006400;
+	border-radius: 13px;
+}
+
+.my-menu ul{
+	margin-left: 8px;
+}
+
+.my-menu ul li{
+	float: left;
+	padding: 0 5px;
+	font-size: 25px;
+	color: #fff;
+}
+
+.my-menu ul li a:after{
+	content: " | ";
+	color: #fff;
+}
+
+.my-menu ul li:last-child > a:after{
+	content: "";
+}
+
+.my-menu ul li a{
+	font-size: 25px;
+	color: #fff;
+}
+
+.my-menu ul li a:hover{
+	background-color: #006400;
+	color: red;
+}
+
+/*--------- Corpo - Section -----------*/
+.my-section{
+	margin-top: 35px;
+}
+
+.my-slide{
+	width: 640px;
+	height: 350px;
+}
+
+.my-promocoes{
+	background-color: #228B22;
+	border-radius: 10px;
+	height: 350px;
+	padding: 13px 0;
+}
+
+.my-promocoes p{
+	font-size: 32px;
+	text-align: center;
+	color: #fff;
+}
+
+.my-p-promocoes{
+	padding-top: 10px;
+}
+
+.my-dialogo1{
+	background-color: red;
+	border-radius: 8px;
+	width: 90%;
+	margin: auto;
+	padding: 5px;
+}
+
+.my-dialogo2{
+	background-color: #fff;
+	border-radius: 8px;
+	width: 90%;
+	margin: auto;
+	margin-top: 15px;
+	padding: 5px;
+}
+
+.my-dialogo3{
+	background-color: #006400;
+	border-radius: 8px;
+	width: 90%;
+	margin: auto;
+	margin-top: 15px;
+	padding: 5px;
+}
+
+.my-dialogo1 h1{
+	font-size: 50px;
+	color: #fff;
+}
+
+.my-dialogo1 p{
+	font-size: 20px;
+	color: #fff;
+	margin-top: 7px;
+}
+
+.my-dialogo2 h1{
+	font-size: 50px;
+	color: #006400;
+}
+
+.my-dialogo2 p{
+	font-size: 20px;
+	color: #006400;
+	margin-top: 7px;
+}
+
+.my-dialogo3 h1{
+	font-size: 50px;
+	color: #fff;
+}
+
+.my-dialogo3 p{
+	font-size: 20px;
+	color: #fff;
+	margin-top: 7px;
+}
+
+.article3{
+	margin-top: 20px;
+}
+
+.thumbnail{
+	background-color: red;
+	padding: 10px;
+	border-radius: 8px;
+    float: left;
+    width: 285px;
+    margin: -30px 20px 0 0;
+}
+
+.thumbnail:last-child{
+    margin: -30px -20px 0 0;
+}
+
+.thumbnail h2{
+	color: #fff;
+	text-align: center;
+}
+
+.thumbnail img{
+    height: 200px;
+}
+
+.my-sociais{
+	background-color: red;
+	border-radius: 8px;
+	height: 270px;
+}
+
+.my-sociais h2{
+	color: #fff;
+	text-align: center;
+}
+
+.my-sociais img{
+	width: 90px;
+	border-radius: 100px;
+	margin: 40px -8px 0 43px;
+}
+
+/*--------- Localizacao -----------*/
+#map{
+  width: 100%;
+  height: 270px;
+  margin-bottom: 20px;
+}
+
+/*--------- Footer -----------*/
+.my-footer{
+	background-color: #006400;
+	color: #fff;
+}
+
+.my-copy, .my-address, .my-agencia{
+	float: left;
+}
+
+.my-copy{
+	margin: 30px 0 0 -60px;
+}
+
+.my-address{
+	margin: 10px 0 0 250px;
+}
+
+address p{
+	text-align: center;
+}
+
+.my-agencia{
+	margin: 10px -100px 0 350px;
+}
