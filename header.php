@@ -20,7 +20,7 @@
 							<li><a href="index.php">Home</a></li>
 							<li><a href="mercatos.php">Mercatos</a></li>
 							<li><a href="cardapio.php">Cardápio</a></li>
-							<li><a href="contatos.php">Contatos</a></li>
+							<li><a href="contato.php">Contato</a></li>
 						</ul>
 					</nav>
 				</div> <!-- Close DIV MENU -->

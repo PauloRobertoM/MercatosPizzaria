@@ -42,6 +42,9 @@
 								<a href="#"><img src="img/facebook.png" alt="Logo do Facebook" /></a>
 							</div>
 							<div class="span8">
+								<div class="localizacao">
+									<h2>Localização</h2>
+								</div>
 								<div id="map"></div>
 							</div>
 						</article>
