@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="Agência dos Mares - Comunicação Digital." />
+		<meta name="keywords" content="Código Limpo, Desenvolvimento Web, HTML5, Desenvolvimento Ágil" />
+		<meta name="author" content="Agência dos Mares" />
+		<meta name="reply-to" content="contato@agenciadosmares.com.br" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/my-style.css" />	    
 	</head>

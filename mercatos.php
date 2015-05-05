@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="description" content="Agência dos Mares - Comunicação Digital." />
-		<meta name="keywords" content="Código Limpo, Desenvolvimento Web, HTML5, Desenvolvimento Ágil" />
-		<meta name="author" content="Agência dos Mares" />
-		<meta name="reply-to" content="contato@agenciadosmares.com.br" />
 		<title>Mercatos Pizzaria</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/my-style.css" />	    
 	</head>
 	<body>
 		<div class="row">
 			<div class="container">
 
 				<!-- ********* Chamada do header.PHP ********* -->
-				<?php include("header.php"); ?>
+				<?php include("templates/header.php"); ?>
 
 				<div class="row-fluid">
 					<section class="my-section">
@@ -36,7 +28,7 @@
 		</div>
 
 		<!-- ********* Chamada do footer.PHP ********* -->
-		<?php include("footer.php"); ?>
+		<?php include("templates/footer.php"); ?>
 		
 	</body>
 </html>
