@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/my-style.css" />
-	</head>
 	<body>
 		<div class="my-footer">
 			<footer class="container">
@@ -26,5 +22,16 @@
 				</div>
 			</footer>
 		</div>
+
+		<!-- ************ Scripts ********** -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>  		
+  		<script type="text/javascript" src="js/gmaps.js"></script>
+  		<script type="text/javascript" src="js/my-functios.js"></script>
+  		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script>
+	        $('#my-carousel').carousel({interval: 3000})
+	    </script>
 	</body>
 </html>
